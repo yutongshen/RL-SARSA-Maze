@@ -67,7 +67,7 @@ We can choose 'up', 'down', 'left' and 'right' to approach destination
   - Take the action, and observe the reward, r, as well as the new state, s'.
   - According to s', decide an a'
   - Update the Q-table for the state using the observed reward and the maximum reward possible for the next state.
-    - ![Q(s,a)=Q(s,a)+\alpha(r+\gamma\Q(s',a')-Q(s,a))](https://latex.codecogs.com/svg.latex?Q%28s,a%29=Q%28s,a%29+\alpha%28r+\gamma\Q%28s%27,a%27%29-Q%28s,a%29%29)
+    - ![Q(s,a)=Q(s,a)+\alpha(r+\gamma\Q(s',a')-Q(s,a))](https://latex.codecogs.com/svg.latex?Q%28s,a%29=Q%28s,a%29+\alpha%28r+\gammaQ%28s%27,a%27%29-Q%28s,a%29%29)
   - Set the state to the new state, and repeat the process until a terminal state is reached.
 
 <!--
@@ -100,10 +100,10 @@ We can choose 'up', 'down', 'left' and 'right' to approach destination
 | (3, 1) | 0.017853 | 6.348465e-04 | 9.121653e-07 | 2.827266e-07 |
 | (3, 2) | 0.000251 | 0.000000e+00 | 3.141407e-06 | 0.000000e+00 |
 | (3, 3) | 0.010342 | 0.000000e+00 | 0.000000e+00 | 1.975590e-04 |
--->
 
 ## Related Link
-- [nbviewer](https://nbviewer.jupyter.org/github/yutongshen/DSAI-HW3-Subtractor/blob/master/Subtractor.ipynb)
+- [nbviewer]()
+-->
 
 ## Authors
 [Yu-Tong Shen](https://github.com/yutongshen/)
